@@ -1,0 +1,23 @@
+# .gitignore
+
+__pycache__
+.vs
+venv
+
+*.bin
+*.hdf5
+*.h5
+*.png
+*.sh
+*.pth
+*.csv
+
+*.swp
+
+VOCdevkit/
+
+# Project exclude paths
+/.vscode/
+/logs/
+/ocr/
+/tf2/NestedFasterRCNN/
