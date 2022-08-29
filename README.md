@@ -38,7 +38,12 @@ The results using the VOC2007 dataset's 5011 `trainval` images match the paper's
 | pottedplant| 40.4% |
 |**Mean**    | **71.3%** |
 
-For the detection of building facades, we tested the Faster R-CNN with different backbone networks as feature extractors.
+This project applies Faster R-CNN with other techniques to learn an annotated image database of building facades obtained from 
+Google Street View, that categorizes objects into land uses (**residential**, **commercial**, **religious**, **public** and **vacant**) . The database is included in this repository, inside the 
+`data` folder, in a compacted zip file.
+
+For the detection of building facades, we tested the Faster R-CNN with different backbone networks as feature extractors,
+and trained the model both from scratch and using pre-trained weights.
 
 a) The average mAP (in %) in 40 runs by 10 epochs for:
 
