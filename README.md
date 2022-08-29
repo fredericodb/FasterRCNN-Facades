@@ -45,9 +45,11 @@ Google Street View, that categorizes objects into land uses (**residential**, **
 For the detection of building facades, we tested the Faster R-CNN with different backbone networks as feature extractors,
 and trained the model both from scratch and using pre-trained weights.
 
-a) The average mAP (in %) in 40 runs by 10 epochs for:
+## Results
 
-Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
+### a) The average mAP (in %) in 40 runs by 10 epochs for:
+
+#### Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 
 | Method                       | From scratch | -       | Pre-trained |-|
 |------------------------------|--------------|---------|-------------|---|
@@ -61,9 +63,7 @@ Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 | SSD                          | 57.21        | 0.60    |||
 | RetinaNet                    | 51.92        | 0.15    |||
 
-*Best results in bold*
-
-Faster R-CNN methods on unlabeled data are:
+#### Faster R-CNN methods on unlabeled data are:
 
 |Method|From scratch| -         |Pre-trained| -         |
 |------|------------|-----------|-----------|-----------|
@@ -75,11 +75,9 @@ Faster R-CNN methods on unlabeled data are:
 |Faster R-CNN (ResNet101)|20.24| 3.64      |**60.13**| 2.87      |
 |Faster R-CNN (ResNet152)|**21.85**| 4.08      |58.41| 2.91      |
 
-*Best results in bold*
+### b) The average mAP (in %) in 10 runs by 100 epochs for:
 
-b) The average mAP (in %) in 10 runs by 100 epochs for:
-
-Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
+#### Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 
 |Method| From scratch | -       | Pre-trained |-|
 |------|--------------|---------|-------------|-----|
@@ -93,9 +91,7 @@ Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 |SSD| 57.21        | 0.60    |||
 |RetinaNet| 51.92        |0.15|||
 
-*Best results in bold*
-
-Faster R-CNN methods on unlabeled data are:
+#### Faster R-CNN methods on unlabeled data are:
 
 |Method| From scratch |-| Pre-trained |-|
 |------|--------------|----|-------------|----|
@@ -106,8 +102,6 @@ Faster R-CNN methods on unlabeled data are:
 |Faster R-CNN (ResNet50)| 62.86        |4.95| 78.97       |8.28|
 |Faster R-CNN (ResNet101)| 57.83        |3.61| 73.40       |5.40|
 |Faster R-CNN (ResNet152)| 57.19        |2.80| 68.66       |2.38|
-
-*Best results in bold*
 
 ## Background Material
 
