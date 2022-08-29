@@ -55,7 +55,8 @@ Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 | Faster R-CNN (ResNet152)     | **24.50**    | 6.58    | 57.04       |3.37|
 | SSD                          | 57.21        | 0.60    |||
 | RetinaNet                    | 51.92        | 0.15    |||
-Best results in bold
+
+*Best results in bold*
 
 Faster R-CNN methods on unlabeled data are:
 
@@ -68,7 +69,8 @@ Faster R-CNN methods on unlabeled data are:
 |Faster R-CNN (ResNet50)|18.22| 2.60      |56.65| 4.50      |
 |Faster R-CNN (ResNet101)|20.24| 3.64      |**60.13**| 2.87      |
 |Faster R-CNN (ResNet152)|**21.85**| 4.08      |58.41| 2.91      |
-Best results in bold
+
+*Best results in bold*
 
 b) The average mAP (in %) in 10 runs by 100 epochs for:
 
@@ -85,7 +87,8 @@ Faster R-CNN methods and one-shot methods SSD and RetinaNet on labeled data:
 |Faster R-CNN (ResNet152)| 56.47        | 4.03    | 70.37       |2.70|
 |SSD| 57.21        | 0.60    |||
 |RetinaNet| 51.92        |0.15|||
-Best results in bold
+
+*Best results in bold*
 
 Faster R-CNN methods on unlabeled data are:
 
@@ -98,7 +101,8 @@ Faster R-CNN methods on unlabeled data are:
 |Faster R-CNN (ResNet50)| 62.86        |4.95| 78.97       |8.28|
 |Faster R-CNN (ResNet101)| 57.83        |3.61| 73.40       |5.40|
 |Faster R-CNN (ResNet152)| 57.19        |2.80| 68.66       |2.38|
-Best results in bold
+
+*Best results in bold*
 
 ## Background Material
 
