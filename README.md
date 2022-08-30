@@ -42,7 +42,8 @@ This project applies Faster R-CNN with other techniques to learn an annotated im
 Google Street View, that categorizes objects into land uses (**residential**, **commercial**, **religious**, **public** and **vacant**) . The database is included in this repository, inside the 
 `data` folder, in a compacted zip file.
 
-For the detection of building facades, we tested the Faster R-CNN with different backbone networks as feature extractors,
+For the detection of building facades, we tested the Faster R-CNN with different backbone networks as feature extractors
+(VGG16, VGG16-Places365, VGG19, ResNet50, ResNet101, ResNet152),
 and trained the model both from scratch and using pre-trained weights.
 
 ## Results
